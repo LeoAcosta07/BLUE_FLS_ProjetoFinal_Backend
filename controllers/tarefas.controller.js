@@ -19,7 +19,7 @@ class TarefasController {
       return;
     }
 
-    const tarefa = await tarefaService.findById(id);
+    const tarefa = await tarefasService.findById(id);
 
 
     if(!tarefa) {
